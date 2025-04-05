@@ -6,15 +6,15 @@ export default function Pain() {
 return (
     
     <main>
-<div className="min-h-screen bg-black-900 text-white">  
+<div className="min-h-screen bg-black-500 text-white">
 
 
 
 <div className="text-center py-16 px-4">
-    <h2 className="text-4xl font-bold">Fast. Easy. Loans your way.</h2>
+    <h2 className="text-4xl font-bold">Quick. Easy. Loans your way.</h2>
 <div className="mt-6">
       <input type="text" placeholder="Phone Number" className="text-xl text-black" />
-      <button className="bg-gray-500 px-4 py-2 ml-2">Get a Loan</button>
+      <button className="bg-gray-600 px-4 py-2 ml-2">Get a Loan</button>
 </div>
     <p className="text-sm mt-2">Checking for loan offers is completely free. We never share your information. </p>
      <a href = "#">  Terms & Conditions</a>
@@ -25,7 +25,7 @@ return (
 </ul>
 </div>
   
-<div className="bg-black-800 py-8 text-center">
+<div className="bg-black-700 py-8 text-center">
 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
 <div>
         <p className=" ml-39"><SlCalender/></p>
@@ -51,12 +51,6 @@ return (
 </div>
 </div>
 
-
-
-
-
-       
-       
     </main>
   );
 }
